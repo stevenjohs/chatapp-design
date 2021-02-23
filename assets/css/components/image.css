@@ -1,0 +1,61 @@
+.img-sm {
+	width: 34px;
+	height: 34px;
+}
+
+svg.img-icon {
+	width: 19.5px;
+	height: 19.5px;
+}
+
+.img-profil {
+	margin-right: 7.5px;
+	border-radius: 50%;
+}
+
+.img-container {
+	display: inherit;
+	position: relative;
+}
+
+.img-container .is-online {
+	width: 10px;
+    height: 10px;
+	border: 1px solid #fff;
+    right: 15%;
+    bottom: 5%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.img-container .is-online.true {
+	background-color: var(--green);
+}
+
+.img-container .is-online.false {
+	background-color: var(--red);
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+	.img-icon {
+		width: 20px;
+		height: 20px;
+	}
+
+	.img-sm {
+		width: 37.5px;
+		height: 37.5px;
+	}	
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

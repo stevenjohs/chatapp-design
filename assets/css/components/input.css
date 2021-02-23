@@ -1,0 +1,35 @@
+.input {
+	background: transparent;
+	padding: .75rem 1.1rem;
+	width: 100%;
+}
+
+.input::placeholder {
+	color: #808080;
+}
+
+.input-container {
+	position: relative;
+	background-color: #eeeeee;
+	border-radius: 5px;
+	display: flex;
+	width: auto;	
+}
+
+@media (min-width: 300px) {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

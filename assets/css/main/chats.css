@@ -1,0 +1,38 @@
+.chats-content .input-container {
+	margin-bottom: 10px;
+}
+
+.chats-content .input-container .input {
+	padding: .75rem 1.1rem
+}
+
+.chats-content .card-item {
+	padding: .55rem .75rem
+}
+
+.chats-content .chats .unread {
+	display: flex;
+	align-items: center;
+	font-weight: 600
+}
+
+@media (min-width: 300px) {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+	.chats-content .input-container .input {
+		padding: 1rem 1.1rem
+	}
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

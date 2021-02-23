@@ -1,0 +1,52 @@
+@import 'home.css';
+@import 'chats.css';
+@import 'chat.css';
+
+section.main-section {
+	margin-top: var(--navHeight);
+}
+
+.main-content {
+	width: 100%;
+	position: relative;
+    margin-bottom: 140px !important;
+}
+
+.main-content.chat {
+	margin-bottom: 0 !important
+}
+
+@media (min-width: 300px) {
+	.main-content {
+		margin: calc(17.5px / 1.5) 0;
+		padding: 0 calc(17.5px / 1.5);
+	}
+
+	.content {
+		padding: 10px
+	}
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+	.main-content {
+		padding: 0;
+		margin: 17.5px 0;
+	}
+
+	.main-content.chat {
+		margin-bottom: 140px !important
+	}
+}
+
+@media (min-width: 1400px) {
+}

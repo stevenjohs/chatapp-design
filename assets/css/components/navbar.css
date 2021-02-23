@@ -1,0 +1,144 @@
+.navbar {
+	z-index: 99;
+	width: 100%;
+	height: var(--navHeight);
+	background-color: #FFF;
+	position: fixed;
+	top: 0;
+	box-shadow: 0 5px 5px 0 rgba(165, 150, 169, 0.17);
+}
+
+.navbar-brand {
+	display: flex;
+	align-items: center;
+	font-size: 17px;
+}
+
+.navbar-brand img {
+	width: 26.5px;
+	height: 26.5px;
+}
+
+.navbar-menu {
+	display: flex;
+	align-items: center;
+}
+
+.nav-item {
+	margin-right: 20px;
+}
+
+.nav-link {
+	display: flex;
+	align-items: center;
+}
+
+.nav-link .img-container .notif {
+	position: absolute;
+	top: 11px;
+	right: -11px
+}
+
+.nav-link.active svg.img-icon {
+	stroke: var(--primaryColor);
+}
+
+.nav-link.icon {
+	border-radius: 50%;
+	padding: 8px;
+	display: flex;
+	transition: var(--transitionTime) ease-in-out
+}
+
+.nav-link.icon:hover , .nav-link.icon:focus {
+	background-color: var(--primaryColorAlpha);
+	transform: scale(1.1575);
+}
+
+@media (min-width: 300px) {
+	.navbar-brand {
+		display: none;
+	}
+
+	.navbar > .container {
+		justify-content: center
+	}
+
+	.navbar-label-true .navbar.navbar-label {
+		display: flex;
+	}
+
+	.navbar-label-true .navbar {
+		display: none;
+	}
+
+	.navbar-brand img {
+		margin-right: 0
+	}
+
+	.navbar-brand .logo-name {
+		display: none;
+	}
+
+	.nav-item.profil , .nav-item.profil .nav-link img {
+		margin-right: 0;
+	}
+
+	.nav-item.profil .nav-link span {
+		display: none;
+	}
+
+	.divider-y {
+		display: none
+	}
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+	.navbar-brand {
+		display: flex;
+	}
+
+	.navbar > .container {
+		justify-content: space-between;
+	}
+
+	.divider-y {
+		display: initial;
+	}
+
+	.navbar-brand img {
+		margin-right: 10px
+	}
+
+	.navbar-brand .logo-name {
+		display: initial;
+	}
+
+	.nav-item {
+		margin-right: 34.5px;
+	}
+
+	.nav-item.profil .nav-link img {
+		margin-right: 7.5px
+	}
+
+	.nav-item.profil .nav-link span {
+		display: initial;
+	}
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+	.navbar-label-true .navbar.navbar-label > .container {
+		max-width: 700px
+	}
+}
+
+@media (min-width: 1400px) {
+}

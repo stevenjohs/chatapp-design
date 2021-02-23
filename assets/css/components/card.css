@@ -1,0 +1,49 @@
+.card {
+	border-radius: 7.5px;
+	background-color: #FFF;
+	box-shadow: 3px 3px 5px 0 rgba(165, 150, 169, 0.1225);
+	height: auto;
+	padding: 10px;
+	overflow-y: scroll;
+	overflow: overlay
+}
+
+.card.card-item {
+	cursor: pointer;
+	box-shadow: none !important;
+	transition: var(--transitionTime) ease-in-out;
+	margin-top: 5px;
+	display: flex;
+}
+
+.card.card-item:nth-child(1) {
+	margin-top: 0;
+}
+
+.card.card-item.active {
+	background-color: var(--primaryColor);
+}
+
+.card.card-item.active svg.img-icon {
+	stroke: #fff;
+}
+
+.card.card-item.active p {
+	color: #fff;
+}
+
+.card.card-item.active:hover , .card.card-item.active:focus {
+	background-color: var(--primaryColorTransition);
+}
+
+.card.card-item.active:active {
+	background-color: var(--primaryColor);
+}
+
+.card.card-item:hover , .card.card-item:focus {
+	background-color: #ececec
+}
+
+.card.card-item:active {
+	background-color: #d6d6d6
+}

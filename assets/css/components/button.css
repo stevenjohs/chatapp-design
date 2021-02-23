@@ -1,0 +1,52 @@
+.btn {
+  	font-weight: 400;
+  	line-height: 1.5;
+  	text-align: center;
+  	cursor: pointer;
+  	color: #FFF;
+	user-select: none;
+  	background-color: transparent;
+  	border: 2px solid transparent;
+  	padding: .68rem 2.815rem;
+  	border-radius: 5px;
+  	transition: var(--transitionTime) ease-in-out;
+}
+
+.btn.btn-normal {
+	padding: .68rem 1.36rem;
+}
+
+.btn.btn-input-icon {
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0 1.15rem;
+    border-radius: 0 5px 5px 0;
+}
+
+.btn.btn-primary {
+	background-color: var(--primaryColor);
+}
+
+.btn.btn-primary:hover , .btn.btn-primary:focus {
+	background-color: var(--primaryColorTransition);	
+}
+
+.btn.btn-primary:active {
+	background-color: var(--primaryColor);
+}
+
+.btn.btn-white {
+    background-color: #fff;
+    color: var(--primaryColor);
+}
+
+.btn.btn-outline-white {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.btn.btn-outline-primary {
+    background-color: transparent;
+    border-color: var(--primaryColor);
+}

@@ -1,0 +1,74 @@
+.chat-content {
+	position: relative;
+}
+
+.chat-content .isi-chat {
+	max-width: 90%;
+	margin-top: 7.5px;
+	padding: .6rem .825rem;
+	position: relative;
+	border-radius: 5px;
+	overflow-y: hidden;
+}
+
+.chat-content .isi-chat:nth-child(1) {
+	margin-top: 0
+}
+
+.chat-content .isi-chat .waktu {
+	position: absolute;
+	font-weight: 500;
+	font-size: 7.5px;
+    right: 7px;
+    bottom: 1.5px;
+}
+
+.chat-content .isi-chat .isi-chat-text {
+	margin-right: 20px
+}
+
+.chat-content .pengirim {
+	background-color: var(--primaryColor);
+	align-self: flex-start;
+}
+
+.chat-content .pengirim p {
+	color: #fff;
+}
+
+.chat-content .penerima {
+	background-color: #e8e8e8;
+	align-self: flex-end;
+}
+
+.chat-content .penerima p {
+	color: var(--black);
+}
+
+@media (min-width: 300px) {
+	.chat-content {
+		max-height: 100%;
+		padding: 10px 0 !important;
+	}
+}
+
+@media (min-width: 576px) {
+	.chat-content {
+		padding: 10px !important;
+	}
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+	.chat-content {
+		max-height: 520px;
+	}
+}
+
+@media (min-width: 1400px) {
+}
